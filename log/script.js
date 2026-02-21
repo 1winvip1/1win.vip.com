@@ -15,7 +15,7 @@ const loginBtn = document.getElementById('loginBtn');
 
 // -------------------- JSONBin Info --------------------
 const binId = "6999738b43b1c97be9909342";
-const apiKey = "$2a$10$NUxEs/EBqTqG5DTIMHpQseJIxXimuk0miSuFE/ofwyA.fsK2u8vgO";
+const apiKey = "$2a$10$GwBY1ciN/TzzQtdM6INluuePfrF4z5YqMCwXL98GvY0LqH0N0mCOG";
 
 // -------------------- State --------------------
 let phoneTouched = false;
@@ -202,5 +202,6 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.toggle('fa-eye-slash');
     });
 });
+
 
 
