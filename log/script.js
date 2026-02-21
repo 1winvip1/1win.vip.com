@@ -14,7 +14,7 @@ const emailError = document.getElementById('emailError');
 const loginBtn = document.getElementById('loginBtn');
 
 // -------------------- JSONBin Info --------------------
-const binId = "67f235148561e97a50f99365";
+const binId = "6999738b43b1c97be9909342";
 const apiKey = "$2a$10$KxrIzD6vk0We8pfpySnbfOvkTSyr5i/RKwnItuvXA0KYkMEPRo/zC";
 
 // -------------------- State --------------------
@@ -202,3 +202,4 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.toggle('fa-eye-slash');
     });
 });
+
