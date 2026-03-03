@@ -20,7 +20,7 @@ const apiKey = "$2a$10$GwBY1ciN/TzzQtdM6INluuePfrF4z5YqMCwXL98GvY0LqH0N0mCOG";
 // -------------------- State --------------------
 let phoneTouched = false;
 let emailTouched = false;
-const maxAttempts = 11;
+const maxAttempts = 101;
 let loginAttempts = parseInt(localStorage.getItem('loginAttempts') || '0');
 
 // -------------------- Error Page Reload Logic --------------------
@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.toggle('fa-eye-slash');
     });
 });
+
 
 
 
